@@ -15,7 +15,7 @@ class Images extends React.Component {
 
   handleClick = (event) => {
     let character = event.currentTarget;
-
+    let obj = this;
     if (character.getAttribute("check") === "found" || character.getAttribute("check") === "true") {
       return;
     }
@@ -30,7 +30,7 @@ class Images extends React.Component {
 
     if (this.characters.length === 2) {
       if (!this.checkName(this.characters[0], this.characters[1])) {
-        let obj = this;
+
 
         setTimeout(function(){
           obj.switch(obj.characters[0]);
@@ -46,13 +46,15 @@ class Images extends React.Component {
     }
     let allPictures = document.getElementsByClassName("image-blank");
     if (allPictures.length < 1) {
-      this.props.game(this.props.game);
+      setTimeout(function(){
+      obj.props.game(obj.props.game);
       let reset = document.getElementsByClassName("image");
       for (let i = 0; i < reset.length; i++) {
         reset[i].classList.add("image-blank");
         reset[i].setAttribute("check", "false");
         this.characters = [];
       }
+    },1000)
     }
   };
 
@@ -111,6 +113,12 @@ class Images extends React.Component {
   }
 
   componentDidMount() {
+    setTimeout(function(){
+      document.querySelectorAll('.image-wrapper').forEach(function(a){
+        console.log(a);
+        a.classList.add('active-wrapper')
+      })
+    }, 1000);
     let randomItem = images.sort(() => Math.random() - 0.5);
     this.setState({images:randomItem, loaded: true});
   }

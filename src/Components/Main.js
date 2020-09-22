@@ -36,8 +36,8 @@ class Main extends React.Component {
         <div className="main">
         {showGame === 0 ? <Login game={this.updateGame} /> : null}
         {showGame === 1 ? <Memory game={this.updateGame} /> : null}
-        {showGame === 3 ? <Questions game={this.updateGame} /> : null}
-        {showGame === 2 ? <Common game={this.updateGame} /> : null}
+        {showGame === 2 ? <Questions game={this.updateGame} /> : null}
+        {showGame === 3 ? <Common game={this.updateGame} /> : null}
         {showGame === 4 ? <EndGame newgame={this.handleEndGame} /> : null}
       </div>
       </div>
