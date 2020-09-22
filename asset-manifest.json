@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/game/static/css/main.b6c55587.chunk.css",
-    "main.js": "/game/static/js/main.52ae141d.chunk.js",
-    "main.js.map": "/game/static/js/main.52ae141d.chunk.js.map",
+    "main.css": "/game/static/css/main.30cc140e.chunk.css",
+    "main.js": "/game/static/js/main.9f675e4b.chunk.js",
+    "main.js.map": "/game/static/js/main.9f675e4b.chunk.js.map",
     "runtime-main.js": "/game/static/js/runtime-main.eb6a8fc6.js",
     "runtime-main.js.map": "/game/static/js/runtime-main.eb6a8fc6.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/game/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.f4801472.chunk.js": "/game/static/js/2.f4801472.chunk.js",
-    "static/js/2.f4801472.chunk.js.map": "/game/static/js/2.f4801472.chunk.js.map",
+    "static/js/2.d59bd108.chunk.js": "/game/static/js/2.d59bd108.chunk.js",
+    "static/js/2.d59bd108.chunk.js.map": "/game/static/js/2.d59bd108.chunk.js.map",
     "index.html": "/game/index.html",
-    "precache-manifest.a77eface5ff0352a490ea08477d50c2e.js": "/game/precache-manifest.a77eface5ff0352a490ea08477d50c2e.js",
+    "precache-manifest.a2195aeb064a3c82bce51fe0272e653d.js": "/game/precache-manifest.a2195aeb064a3c82bce51fe0272e653d.js",
     "service-worker.js": "/game/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/game/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.b6c55587.chunk.css.map": "/game/static/css/main.b6c55587.chunk.css.map",
-    "static/js/2.f4801472.chunk.js.LICENSE.txt": "/game/static/js/2.f4801472.chunk.js.LICENSE.txt",
+    "static/css/main.30cc140e.chunk.css.map": "/game/static/css/main.30cc140e.chunk.css.map",
+    "static/js/2.d59bd108.chunk.js.LICENSE.txt": "/game/static/js/2.d59bd108.chunk.js.LICENSE.txt",
     "static/media/stylesheet.css": "/game/static/media/MiddleEarth.82d2db3e.woff2",
     "static/media/Main.css": "/game/static/media/paper.c75ce50f.jpg",
-    "static/media/bg.png": "/game/static/media/bg.e2a80f61.png",
+    "static/media/bg.jpg": "/game/static/media/bg.e9d90b10.jpg",
+    "static/media/cat1.png": "/game/static/media/cat1.59c59bf1.png",
+    "static/media/cat2.png": "/game/static/media/cat2.e2a80f61.png",
+    "static/media/cat3.png": "/game/static/media/cat3.7636f720.png",
+    "static/media/cat4.png": "/game/static/media/cat4.8a14f460.png",
+    "static/media/cat5.png": "/game/static/media/cat5.8d493eee.png",
     "static/media/default.png": "/game/static/media/default.bf4bf18c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eb6a8fc6.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.f4801472.chunk.js",
-    "static/css/main.b6c55587.chunk.css",
-    "static/js/main.52ae141d.chunk.js"
+    "static/js/2.d59bd108.chunk.js",
+    "static/css/main.30cc140e.chunk.css",
+    "static/js/main.9f675e4b.chunk.js"
   ]
 }
