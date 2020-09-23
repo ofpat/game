@@ -25,15 +25,14 @@ class Questions extends React.Component {
     else
       questionWrapper.classList.add('false-answer');
 
-    console.log(this.score);
-    if(this.score < 3){
-      setTimeout(function(){
+    setTimeout(function(){
+    if(obj.score < 3){
         obj.setState({newQuestion: true});
-      },1500);
     }
     else {
-      this.props.game(this.props.game);
+      obj.props.game(obj.props.game);
     }
+    },1500);
   }
 
   render() {

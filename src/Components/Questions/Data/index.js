@@ -1,42 +1,42 @@
 export let data = [
   {
-    question: "Lösung ist asdf",
-    correct_answer: "asdf",
+    question: "Wie heißt die Hauptstadt von Neuseeland?",
+    correct_answer: "Wellington",
     answers: [
-      "Test",
-      "Test2",
-      "Test3",
-      "asdf"
+      "Brisbane",
+      "Dunedin",
+      "Wellington",
+      "Auckland"
     ],
   },
   {
-    question: "Lösung ist asdf",
-    correct_answer: "asdf",
+    question: "Welche Sprache ist neben Englisch die 2. Amtssprache in Neuseeland?",
+    correct_answer: "Maori",
     answers: [
-      "Test",
-      "Test2",
-      "Test3",
-      "asdf"
+      "Französisch",
+      "Maori",
+      "Spanisch",
+      "Urdu"
     ],
   },
   {
-    question: "Lösung ist asdf",
-    correct_answer: "asdf",
+    question: "Wie viele Einwohner hat Neuseeland?",
+    correct_answer: "4,9 Millionen",
     answers: [
-      "Test",
-      "Test2",
-      "Test3",
-      "asdf"
+      "5,8 Millionen",
+      "4,9 Millionen",
+      "3,2 Millionen",
+      "10,9 Millionen"
     ],
   },
   {
-    question: "Lösung ist asdf",
-    correct_answer: "asdf",
+    question: "Wer oder was ist ein/e Tuatara?",
+    correct_answer: "Echse mit Schnabelkopf",
     answers: [
-      "Test",
-      "Test2",
-      "Test3",
-      "asdf"
+      "Neuseeländische Dessert-Spezialität",
+      "Echse mit Schnabelkopf",
+      "Giftige tiefwurzelnde Sträucher",
+      "Berg in den neuseeländischen Alpen"
     ],
   },
   {
