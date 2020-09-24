@@ -14,7 +14,7 @@ class Common extends React.Component {
     newQuestion: false
   }
   this.score = 0;
-  this.maxscore = 2;
+  this.maxscore = 4;
 }
 
   handleClick = (event) => {
@@ -92,7 +92,6 @@ class Common extends React.Component {
       <div className="question text-center">
       {
         this.state.question.images
-        .sort(() => Math.random() - 0.5)
         .map((element) => {
           return (
             <img alt="" src={element}/>
@@ -142,7 +141,7 @@ class Common extends React.Component {
       let randomNumber = Math.floor(Math.random()*this.state.data.length);
       let randomItem = this.state.data[randomNumber];
       let letters = '';
-      let length = 12 - randomItem.word.length;
+      let length = 18 - randomItem.word.length;
       var characters = 'abcdefghijklmnopqrstuvwxyz';
       var charactersLength = characters.length;
       for ( var i = 0; i < length; i++ ) {
@@ -163,7 +162,7 @@ class Common extends React.Component {
     let randomNumber = Math.floor(Math.random()*data.length);
     let randomItem = data[randomNumber];
     let letters = '';
-    let length = 12 - randomItem.word.length;
+    let length = 18 - randomItem.word.length;
     var characters = 'abcdefghijklmnopqrstuvwxyz';
     var charactersLength = characters.length;
     for ( var i = 0; i < length; i++ ) {

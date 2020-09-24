@@ -139,8 +139,8 @@ h1 {
   background-color: rgba(152, 176, 135, 0.4); }
 
 .common img {
-  width: 200px;
-  height: 200px;
+  width: 18.75rem;
+  height: 18.75rem;
   display: inline-block; }
 .common .selected-solution {
   width: 50;
@@ -163,7 +163,8 @@ h1 {
     left: 0;
     top: 0;
     text-align: center;
-    line-height: 1.8; }
+    line-height: 1.8;
+    font-family: arial; }
 .common .letter {
   width: 2rem;
   height: 2rem;
@@ -176,7 +177,8 @@ h1 {
   transition: all .6s ease;
   display: inline-block;
   padding-top: 2px;
-  text-align: center; }
+  text-align: center;
+  font-family: arial; }
 .common .letter-box {
   width: 18rem;
   margin: 3rem auto 0; }
