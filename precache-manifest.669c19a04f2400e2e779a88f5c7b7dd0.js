@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "782da9a09ba4fc93eea7ddc4216aa529",
+    "revision": "c577009483fc497003656d8b49bcbe9e",
     "url": "/game/index.html"
   },
   {
-    "revision": "734beb58ceedafd55dcd",
+    "revision": "b2fada1df00f4c6bb9b2",
     "url": "/game/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "aac179a80c4f9922ea56",
-    "url": "/game/static/css/main.7c386d5f.chunk.css"
+    "revision": "e89edc2cabf8f26a3984",
+    "url": "/game/static/css/main.174dc793.chunk.css"
   },
   {
-    "revision": "734beb58ceedafd55dcd",
-    "url": "/game/static/js/2.e433dd1b.chunk.js"
+    "revision": "b2fada1df00f4c6bb9b2",
+    "url": "/game/static/js/2.b62bc106.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/game/static/js/2.e433dd1b.chunk.js.LICENSE.txt"
+    "url": "/game/static/js/2.b62bc106.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aac179a80c4f9922ea56",
-    "url": "/game/static/js/main.9173b1e4.chunk.js"
+    "revision": "e89edc2cabf8f26a3984",
+    "url": "/game/static/js/main.50464a0f.chunk.js"
   },
   {
     "revision": "be523661599ed65828e4",
@@ -60,30 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game/static/media/bg.e9d90b10.jpg"
   },
   {
-    "revision": "59c59bf1d22b2894c61827ab0d7455e1",
-    "url": "/game/static/media/cat1.59c59bf1.png"
-  },
-  {
-    "revision": "e2a80f61b4bdf382c9bcae9d077f0b84",
-    "url": "/game/static/media/cat2.e2a80f61.png"
-  },
-  {
-    "revision": "7636f7209d051b03e3596e100b5e8b77",
-    "url": "/game/static/media/cat3.7636f720.png"
-  },
-  {
-    "revision": "8a14f4605cacdf60051bb38ff99fcb9f",
-    "url": "/game/static/media/cat4.8a14f460.png"
-  },
-  {
-    "revision": "8d493eee0eb000fe086a43557eaa5328",
-    "url": "/game/static/media/cat5.8d493eee.png"
-  },
-  {
-    "revision": "bf4bf18ccdbc8275621df92d0a4a356c",
-    "url": "/game/static/media/default.bf4bf18c.png"
-  },
-  {
     "revision": "7a1a87d264eebc87bb9071efb512e4ae",
     "url": "/game/static/media/hf_1.7a1a87d2.png"
   },
@@ -114,6 +90,82 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8dbb16530ffe4419e20718694da1031a",
     "url": "/game/static/media/kl_4.8dbb1653.png"
+  },
+  {
+    "revision": "04ab220c7d59566c27afae46e0d4f965",
+    "url": "/game/static/media/m1.04ab220c.JPG"
+  },
+  {
+    "revision": "cbcb10143081b443d5638a608eb8801f",
+    "url": "/game/static/media/m10.cbcb1014.JPG"
+  },
+  {
+    "revision": "9b6cc9573cc48993ce7b2973c0babecd",
+    "url": "/game/static/media/m11.9b6cc957.JPG"
+  },
+  {
+    "revision": "7eeb76bf9d0f9ef6d9615716a09d37d4",
+    "url": "/game/static/media/m12.7eeb76bf.jpg"
+  },
+  {
+    "revision": "da1456f339352b7b342fba40f8d349b3",
+    "url": "/game/static/media/m13.da1456f3.JPG"
+  },
+  {
+    "revision": "88f8943a846f892ed74842dd177d51ef",
+    "url": "/game/static/media/m14.88f8943a.JPG"
+  },
+  {
+    "revision": "67145ec3ac540d40e82037ea84505a7b",
+    "url": "/game/static/media/m15.67145ec3.JPG"
+  },
+  {
+    "revision": "2f697d11b2f187179cda90eee34adeaf",
+    "url": "/game/static/media/m16.2f697d11.JPG"
+  },
+  {
+    "revision": "0128e8a71749aa90d2e0b6f07292d860",
+    "url": "/game/static/media/m17.0128e8a7.JPG"
+  },
+  {
+    "revision": "4af62e086e45d23a8629285105f5dcf5",
+    "url": "/game/static/media/m18.4af62e08.JPG"
+  },
+  {
+    "revision": "797f200f8451f84d9577dedba2410b93",
+    "url": "/game/static/media/m19.797f200f.JPG"
+  },
+  {
+    "revision": "aee2daf9453ea0f8b3a15af20e7c01c6",
+    "url": "/game/static/media/m2.aee2daf9.JPG"
+  },
+  {
+    "revision": "d08e953c20373df33e4012b2b18eef52",
+    "url": "/game/static/media/m3.d08e953c.jpeg"
+  },
+  {
+    "revision": "17b7d332e9353910a06578e856580269",
+    "url": "/game/static/media/m4.17b7d332.jpeg"
+  },
+  {
+    "revision": "54c5bfefd08d4f52f9f498609fbe7867",
+    "url": "/game/static/media/m5.54c5bfef.jpeg"
+  },
+  {
+    "revision": "6336543a33396d6d9dcd2ecd687461e7",
+    "url": "/game/static/media/m6.6336543a.JPG"
+  },
+  {
+    "revision": "aefda42f7a70d63e99260107c11728bc",
+    "url": "/game/static/media/m7.aefda42f.JPG"
+  },
+  {
+    "revision": "85f68d1b6eea6e8e18807b9c692e2ac2",
+    "url": "/game/static/media/m8.85f68d1b.JPG"
+  },
+  {
+    "revision": "9b1374c7ef39783a48808e3e0c77c51a",
+    "url": "/game/static/media/m9.9b1374c7.JPG"
   },
   {
     "revision": "c75ce50f82ee84c4e7f863a47a15c995",
