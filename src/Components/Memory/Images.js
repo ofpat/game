@@ -80,7 +80,7 @@ class Images extends React.Component {
     if(typeof this.state.images === 'object'){
     return (
       <div className="images">
-      <Navbar title="Play some memory!" currentScore={this.state.score} maxScore={images.length / 2}/>
+      <Navbar title="Löse das Memory Spiel!" currentScore={this.state.score} maxScore={images.length / 2}/>
       <div className="image-wrapper">
         {this.state.images
           .map((element) => {
@@ -120,6 +120,7 @@ class Images extends React.Component {
       })
     }, 1000);
     let randomItem = images.sort(() => Math.random() - 0.5);
+    console.log(randomItem);
     this.setState({images:randomItem, loaded: true});
   }
 }

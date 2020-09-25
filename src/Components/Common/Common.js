@@ -88,7 +88,7 @@ class Common extends React.Component {
     if(typeof this.state.question === 'object'){
     return (
       <div className="common container-fluid">
-      <div className=""><Navbar title="Find the meaning" currentScore={this.score} maxScore={this.maxscore}/></div>
+      <div className=""><Navbar title="Finde den gemeinsamen Begriff!" currentScore={this.score} maxScore={this.maxscore}/></div>
       <div className="question text-center">
       {
         this.state.question.images

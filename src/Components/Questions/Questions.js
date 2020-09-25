@@ -42,7 +42,7 @@ class Questions extends React.Component {
     if(typeof this.state.question === 'object'){
     return (
       <div className="questions container-fluid">
-      <div className=""><Navbar title="Answer some questions" currentScore={this.score} maxScore="3"/></div>
+      <div className=""><Navbar title="Beantworte die schwierigen Fragen!" currentScore={this.score} maxScore="3"/></div>
       <div className="question text-center">
       {this.state.question.question}
       </div>

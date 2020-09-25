@@ -43,6 +43,7 @@ h1 {
   position: relative;
   z-index: 10;
   padding: 1rem;
+  overflow: auto;
 //   -webkit-box-shadow: 0px 0px 10px 8px white;
 // -moz-box-shadow: 0px 0px 10px 8px white;
 // box-shadow: 0px 0px 10px 8px white;
@@ -104,6 +105,10 @@ h1 {
 .flip-card-front {
   -webkit-backface-visibility: visible; /* Safari */
   backface-visibility: visible;
+  img {
+    transform: rotateY(180deg);
+    -transform: rotateY(180deg);
+  }
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -201,8 +206,9 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0,0.75);
           left: 0;
           top: 0;
           text-align: center;
-          line-height: 1.8;
+          line-height: 2rem;
           font-family: arial;
+          text-transform: uppercase;
     }
   }
   .letter {
@@ -214,11 +220,13 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0,0.75);
     margin: 0.5rem;
     background-color: white;
     cursor: pointer;
-    transition: all .6s ease;
+    transition: all .6s cubic-bezier(0.4, 0, 1, 1);
     display: inline-block;
     padding-top: 2px;
     text-align: center;
     font-family: arial;
+    text-transform: uppercase;
+    line-height: 1.8rem;
   }
   .letter-box {
     width: 18rem;

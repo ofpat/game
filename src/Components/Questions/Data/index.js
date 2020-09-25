@@ -39,14 +39,4 @@ export let data = [
       "Berg in den neuseeländischen Alpen"
     ],
   },
-  {
-    question: "Lösung ist asdf",
-    correct_answer: "asdf",
-    answers: [
-      "Test",
-      "Test2",
-      "Test3",
-      "asdf"
-    ],
-  },
 ];
