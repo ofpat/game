@@ -102,8 +102,8 @@ h1 {
 }
 
 .flip-card-front {
-  -webkit-backface-visibility: visible; /* Safari */
-  backface-visibility: visible;
+  // -webkit-backface-visibility: visible; /* Safari */
+  // backface-visibility: visible;
   img {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
