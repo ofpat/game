@@ -43,7 +43,6 @@ h1 {
   position: relative;
   z-index: 10;
   padding: 1rem;
-  overflow: auto;
 //   -webkit-box-shadow: 0px 0px 10px 8px white;
 // -moz-box-shadow: 0px 0px 10px 8px white;
 // box-shadow: 0px 0px 10px 8px white;
@@ -107,7 +106,7 @@ h1 {
   backface-visibility: visible;
   img {
     transform: rotateY(180deg);
-    -transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
   }
 }
 

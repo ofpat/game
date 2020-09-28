@@ -40,8 +40,7 @@ h1 {
   width: 80vw;
   position: relative;
   z-index: 10;
-  padding: 1rem;
-  overflow: auto; }
+  padding: 1rem; }
 
 .memory .image-blank {
   cursor: pointer;
@@ -91,7 +90,7 @@ h1 {
     backface-visibility: visible; }
     .memory .image .flip-card-front img {
       transform: rotateY(180deg);
-      -transform: rotateY(180deg); }
+      -webkit-transform: rotateY(180deg); }
   .memory .image .flip-card-front {
     background-color: #bbb;
     color: black; }
