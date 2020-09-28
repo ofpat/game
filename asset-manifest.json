@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/game/static/css/main.174dc793.chunk.css",
+    "main.css": "/game/static/css/main.316e5fdc.chunk.css",
     "main.js": "/game/static/js/main.50464a0f.chunk.js",
     "main.js.map": "/game/static/js/main.50464a0f.chunk.js.map",
     "runtime-main.js": "/game/static/js/runtime-main.eb6a8fc6.js",
@@ -9,10 +9,10 @@
     "static/js/2.b62bc106.chunk.js": "/game/static/js/2.b62bc106.chunk.js",
     "static/js/2.b62bc106.chunk.js.map": "/game/static/js/2.b62bc106.chunk.js.map",
     "index.html": "/game/index.html",
-    "precache-manifest.669c19a04f2400e2e779a88f5c7b7dd0.js": "/game/precache-manifest.669c19a04f2400e2e779a88f5c7b7dd0.js",
+    "precache-manifest.df026972dccc630d2095c17ed593d3e6.js": "/game/precache-manifest.df026972dccc630d2095c17ed593d3e6.js",
     "service-worker.js": "/game/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/game/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.174dc793.chunk.css.map": "/game/static/css/main.174dc793.chunk.css.map",
+    "static/css/main.316e5fdc.chunk.css.map": "/game/static/css/main.316e5fdc.chunk.css.map",
     "static/js/2.b62bc106.chunk.js.LICENSE.txt": "/game/static/js/2.b62bc106.chunk.js.LICENSE.txt",
     "static/media/stylesheet.css": "/game/static/media/MiddleEarth.82d2db3e.woff2",
     "static/media/Main.css": "/game/static/media/paper.c75ce50f.jpg",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.eb6a8fc6.js",
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.b62bc106.chunk.js",
-    "static/css/main.174dc793.chunk.css",
+    "static/css/main.316e5fdc.chunk.css",
     "static/js/main.50464a0f.chunk.js"
   ]
 }
